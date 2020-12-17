@@ -1,0 +1,19 @@
+.card {
+  margin-right: 10px;
+  width: 200px;
+  height: 290px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid lightgrey;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.card__img {
+  height: 230px;
+  width: 100%;
+  object-fit: cover;
+  margin-bottom: 15px;
+}

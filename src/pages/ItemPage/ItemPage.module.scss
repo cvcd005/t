@@ -1,0 +1,22 @@
+.item {
+  margin: 0 auto;
+  max-width: 1440px;
+  min-width: 320px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.item__img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  margin-bottom: 25px;
+  margin-top: 100px;
+}
+
+.item__name {
+  font-size: 65px;
+  text-align: center;
+}
